@@ -40,7 +40,7 @@ attr_reader :id
 
   end
 
-  def self.create
+  def self.create(hash)
     new_student = Student.new()
     new_student.save
   end
