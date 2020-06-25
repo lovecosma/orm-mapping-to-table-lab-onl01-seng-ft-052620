@@ -12,10 +12,10 @@ attr_accessor :name, :grade, :id
       CREATE TABLE IF NOT EXISTS songs (
         id INTEGER PRIMARY KEY,
         name TEXT,
-        album TEXT
+        grade TEXT
         )
         SQL
-    DB[:conn].execute(sql) 
+    DB[:conn].execute(sql)
   end
 
 end
