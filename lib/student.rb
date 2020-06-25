@@ -46,7 +46,7 @@ attr_reader :id
     new_student_grade = ""
     some_hash.each do |key, value|
     if key == :name
-      new_student_name
+      new_student_name = value
     elsif key == :grade
     end
     end
