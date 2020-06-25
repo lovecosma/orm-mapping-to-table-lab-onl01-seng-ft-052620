@@ -47,6 +47,7 @@ attr_reader :id
     some_hash.each do |key, value|
     if key == :name
     elsif key == :grade
+    end 
     end
     new_student = Student.new(new_student_name, new_student_grade)
     new_student.save
