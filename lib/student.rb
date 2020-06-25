@@ -42,8 +42,8 @@ attr_reader :id
 
   def self.create(some_hash)
     new_student_name = ""
-    new_student_grade =n
-    some_hash.each do |k ey, value|
+    new_student_grade = ""
+    some_hash.each do |key, value|
       new_student_name = value if key = :name
       new_student_grade = value if key = :grade
     end
