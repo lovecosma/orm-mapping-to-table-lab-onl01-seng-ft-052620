@@ -41,6 +41,7 @@ attr_reader :id
   end
 
   def self.create(some_hash)
+    some_hash.each do |key, value|
     new_student = Student.new()
     new_student.save
   end
