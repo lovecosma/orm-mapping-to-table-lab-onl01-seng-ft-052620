@@ -48,6 +48,7 @@ attr_reader :id
     if key == :name
       new_student_name = value
     elsif key == :grade
+      new_student_grade = value
     end
     end
     new_student = Student.new(new_student_name, new_student_grade)
