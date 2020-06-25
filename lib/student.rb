@@ -32,7 +32,11 @@ attr_reader :id
   end
 
   def self.drop_table
-    
+    sql = <<-SQL
+      INSERT INTO students (name, grade)
+      VALUES (?, ?)
+    SQL
+
   end
 
 end
