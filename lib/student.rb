@@ -44,8 +44,7 @@ attr_reader :id
     new_student_name = ""
     new_student_grade = ""
     some_hash.each do |key, value|
-      new_student_name = value if key = :name
-      new_student_grade = value if key = :grade
+    binding.pry
     end
     new_student = Student.new(new_student_name, new_student_grade)
     new_student.save
