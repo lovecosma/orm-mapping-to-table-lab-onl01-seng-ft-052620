@@ -36,7 +36,7 @@ attr_reader :id
       DROP TABLE students
     SQL
 
-  DB[:conn].execute(sql, self.name, self.grade)
+    DB[:conn].execute(sql, self.name, self.grade)
 
   end
 
