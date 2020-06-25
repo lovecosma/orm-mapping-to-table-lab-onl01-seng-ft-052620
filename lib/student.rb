@@ -8,6 +8,7 @@ attr_accessor :name, :grade, :id
   end
 
   def save
-  end 
+    
+  end
 
 end
