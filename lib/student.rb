@@ -41,6 +41,7 @@ attr_reader :id
   end
 
   def self.create(some_hash)
+    new_student_name = ""
     some_hash.each do |key, value|
       new_student_name = value if key = :name
       new_student_grade = value if key = :grade
