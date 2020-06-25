@@ -7,4 +7,6 @@ attr_accessor :name, :grade, :id
     @id = id
   end
 
+  def save
+
 end
